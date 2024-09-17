@@ -1,10 +1,16 @@
-# Welcome
-## Systems neuroscience and artificial intelligence
+# Digit classification website with data augmentation
 
--[Digit classification website](https://goyhr.github.io/digit_classification_website/tfjs.html)
+This folder contains
+- tjfs.html (main code for the web app, written in HTML)
+- spinner.gif (gif animation used by tjfs)
+- README.md (file explaining folder contents, does not contain code)
+- model (folder for group1-shard1of1.bin and model.json files desribing neural network models trained using TensorFlow)
 
--[Digit classification website with data augmentation](https://goyhr.github.io/digit_classification_website_with_data_augmentation/tfjs.html)
+TensorFlow, HTML, TensorFlow.js code and web app deployment via GitHub is used and adapted with permission mainly from
+- [Deploying a Simple Machine Learning Model into a WebApp using TensorFlow.js](https://towardsdatascience.com/deploying-a-simple-machine-learning-model-into-a-webapp-using-tensorflow-js-3609c297fb04) by Carlos Aguayo
 
-Code is used and adapted with permission mainly from
+TensorFlow code is also used and adapted from
+- [Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras](https://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/) by Jason Brownlee
 
--[Deploying a Simple Machine Learning Model into a WebApp using TensorFlow.js](https://towardsdatascience.com/deploying-a-simple-machine-learning-model-into-a-webapp-using-tensorflow-js-3609c297fb04) by Carlos Aguayo.
+TensorFlow Data augmentation code is based on
+- [Build a handwritten digit classifier app with TensorFlow Lite, Step 7: Improve model accuracy with data augmentation](https://colab.research.google.com/github/tensorflow/examples/blob/master/lite/codelabs/digit_classifier/ml/step7_improve_accuracy.ipynb#scrollTo=mxPxpHKHMAkl) by The Tensorflow Authors
